@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'spaceship_stub'
-  s.version     = '0.0.5'
+  s.version     = '0.0.6'
   s.date        = '2017-07-13'
   s.summary     = 'Rails gem for stubbing out Fastlane::Spaceship for writing specs'
   s.description = 'stubbing out Fastlane::Spaceship for writing specs'
