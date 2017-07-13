@@ -1,7 +1,7 @@
 class PortalStubbing
   class << self
     def adp_read_fixture_file(filename)
-      File.read(File.join('spaceship', 'spec', 'portal', 'fixtures', filename))
+      File.read(File.join(File.dirname(__FILE__), 'fixtures', filename))
     end
 
     # Necessary, as we're now running this in a different context

@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'spaceship_stub'
-  s.version     = '0.0.6'
+  s.version     = '0.0.7'
   s.date        = '2017-07-13'
   s.summary     = 'Rails gem for stubbing out Fastlane::Spaceship for writing specs'
   s.description = 'stubbing out Fastlane::Spaceship for writing specs'
@@ -23,6 +23,7 @@ Gem::Specification.new do |s|
     'lib/spaceship_stub/spaceship/spec/du/fixtures/upload_trailer_response_success.json',
     'lib/spaceship_stub/spaceship/spec/du/fixtures/upload_valid.geojson',
     'lib/spaceship_stub/spaceship/spec/du/utilities_spec.rb',
+    'lib/spaceship_stub/spaceship/spec/fixtures/302.html',
     'lib/spaceship_stub/spaceship/spec/tunes/fixtures/app_details.json',
     'lib/spaceship_stub/spaceship/spec/tunes/fixtures/app_overview.json',
     'lib/spaceship_stub/spaceship/spec/tunes/fixtures/app_overview_stuckinprepare.json',

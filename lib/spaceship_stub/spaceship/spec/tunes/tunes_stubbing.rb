@@ -3,7 +3,7 @@ class TunesStubbing
   class << self
     def itc_read_fixture_file(filename)
       # CUSTOM: add File.dirname(__FILE__) to be able to read the files
-      File.read(File.join(File.dirname(__FILE__), 'spaceship', 'spec', 'tunes', 'fixtures', filename))
+      File.read(File.join(File.dirname(__FILE__), 'fixtures', filename))
     end
 
     # Necessary, as we're now running this in a different context
