@@ -7,7 +7,6 @@ Gem::Specification.new do |s|
   s.authors     = ['Minh Luong']
   s.email       = 'en14vn@gmail.com'
   s.files       = [
-    'lib/spaceship/spec/tunes/fixtures'
     'lib/spaceship_stub.rb',
     'lib/spaceship_stub/tunes_stubbing.rb',
     'lib/spaceship/spec/tunes/fixtures/app_details.json',
