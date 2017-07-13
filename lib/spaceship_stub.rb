@@ -1,7 +1,7 @@
-# require_relative 'client_stubbing'
-# require_relative 'portal/portal_stubbing'
-require_relative 'spaceship_stub/tunes_stubbing'
-# require_relative 'du/du_stubbing'
+require_relative 'spaceship_stub/spec/client_stubbing'
+require_relative 'spaceship_stub/spec/portal/portal_stubbing'
+require_relative 'spaceship_stub/spec/tunes/tunes_stubbing'
+require_relative 'spaceship_stub/spec/du/du_stubbing'
 
 module SpaceshipStub
   class << self

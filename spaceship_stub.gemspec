@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'spaceship_stub'
-  s.version     = '0.0.4'
+  s.version     = '0.0.5'
   s.date        = '2017-07-13'
   s.summary     = 'Rails gem for stubbing out Fastlane::Spaceship for writing specs'
   s.description = 'stubbing out Fastlane::Spaceship for writing specs'
@@ -8,7 +8,21 @@ Gem::Specification.new do |s|
   s.email       = 'en14vn@gmail.com'
   s.files       = [
     'lib/spaceship_stub.rb',
-    'lib/spaceship_stub/tunes_stubbing.rb',
+    'lib/spaceship_stub/spaceship/spec/tunes/tunes_stubbing.rb',
+    'lib/spaceship_stub/spaceship/spec/client_stubbing.rb',
+    'lib/spaceship_stub/spaceship/spec/du/du_client_spec.rb',
+    'lib/spaceship_stub/spaceship/spec/du/du_stubbing.rb',
+    'lib/spaceship_stub/spaceship/spec/du/fixtures/upload_geojson_response_failed.json',
+    'lib/spaceship_stub/spaceship/spec/du/fixtures/upload_geojson_response_success.json',
+    'lib/spaceship_stub/spaceship/spec/du/fixtures/upload_image_failed.json',
+    'lib/spaceship_stub/spaceship/spec/du/fixtures/upload_image_success.json',
+    'lib/spaceship_stub/spaceship/spec/du/fixtures/upload_invalid.GeoJSON',
+    'lib/spaceship_stub/spaceship/spec/du/fixtures/upload_screenshot_response_success.json',
+    'lib/spaceship_stub/spaceship/spec/du/fixtures/upload_trailer_preview_2_response_success.json',
+    'lib/spaceship_stub/spaceship/spec/du/fixtures/upload_trailer_preview_response_success.json',
+    'lib/spaceship_stub/spaceship/spec/du/fixtures/upload_trailer_response_success.json',
+    'lib/spaceship_stub/spaceship/spec/du/fixtures/upload_valid.geojson',
+    'lib/spaceship_stub/spaceship/spec/du/utilities_spec.rb',
     'lib/spaceship_stub/spaceship/spec/tunes/fixtures/app_details.json',
     'lib/spaceship_stub/spaceship/spec/tunes/fixtures/app_overview.json',
     'lib/spaceship_stub/spaceship/spec/tunes/fixtures/app_overview_stuckinprepare.json',
